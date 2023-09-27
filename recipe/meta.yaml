@@ -7,8 +7,6 @@ package:
 source:
   url: https://github.com/libprima/prima/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 52bc192444b4ebd07c82ef940a01cfe072e8ae2813a84523ec0df55353de7774
-  patches:
-    - stop.patch  # [win]
 
 build:
   number: 0
